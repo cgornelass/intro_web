@@ -16,7 +16,16 @@
         <rect width="300" height="180"
         style="fill: darkorange; stroke-width:10; stroke: black"/>
     </svg>
-    
+    <!--Gráfico SVG Canvas-->
+    <canvas id="myCanvas" width="200" height="100" style=border: 1px solid #000000;>
+    </canvas>
+    <script>
+        var c = document.getElementById("myCanvas");
+        var contexto = c.getContext("2d");
+        contexto = c.moveto(0,0);
+        contexto = c.lineto(200,100);
+        contexto.stroke();
+    </script>
     <br><a href="/intro_web/index.html">Regresar</a>
 </body>
 </html>
