@@ -10,6 +10,8 @@
 <form action="/intro_web/guardado.html" method="GET">
 <!-- Dos estilos distintos para hacer un formulario selectivo-->
 <!--el value es el q envia el formulario-->
+<fieldset><!--Marco para el formulario-->
+    <legend>Nombre del formulario</legend>
     <select name="Carros" id="Carros" required>
         <option value="">Seleccione un Carro...</option> <!--el value nulo o vacio nos sirve como placeholder en un menu selectivo-->
         <option value="volvo">Volvo</option>
@@ -26,6 +28,7 @@
 
     <br><br>
     <input type="Submit" value="Guardar">
+</fieldset>
 </form>
 <br><a href="/intro_web/index.html">Regresar</a>
 </body>
