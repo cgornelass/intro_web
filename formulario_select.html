@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Select</title>
+</head>
+<body>
+    
+<form action="/intro_web/guardado.html" method="GET">
+<!-- Dos estilos distintos para hacer un formulario selectivo-->
+<!--el value es el q envia el formulario-->
+    <select name="Carros" id="Carros" required>
+        <option value="">Seleccione un Carro...</option> <!--el value nulo o vacio nos sirve como placeholder en un menu selectivo-->
+        <option value="volvo">Volvo</option>
+        <option value="bmw">BMW</option>
+        <option value="honda">Honda</option>
+        <option value="audi">Audi</option>
+        <option value="mercedes benz">Mercedes Benz</option>
+    </select>
+    <br><br>
+    <input type="Submit" value="Guardar">
+</form>
+<br><a href="/intro_web/index.html">Regresar</a>
+</body>
+</html>
