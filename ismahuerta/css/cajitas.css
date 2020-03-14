@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+h2{
+    background: #c2ff92;
+}
+#Caja1{
+    background: #5d53e7;
+}
+#caja2{
+    background-color: yellow;
+    padding-top: 20px;
+    border-color: black;
+    border-style: solid;
+    border-width: 3px;
+}
+ul{
+    background-color: gray;
+    border-bottom-color: red;
+    border-bottom-width: 5px;
+    border-bottom-style: double;
+
+}

@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+body {
+    background-color: #f53336;
+
+    color: #FFFF33;
+}
+
+P{
+    color: #FF0000;
+}
+
+#parrafo2{
+    color: #0000ff;
+}
+
+#parrafo3{
+    color: #FFFFCC;
+    text-align: right;
+    font-size: 40px;
+}
+
+.MiClase1{
+    color: #02f50f;
+    text-align: center;
+    font-size: 30px;
+}
+
