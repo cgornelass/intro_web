@@ -6,19 +6,40 @@
     <title>Formulario</title>
 </head>
 <body>
+<!--GET-->
     <form action="/intro_web/guardado.html" method="GET">
 
     <label for="">Nombre</label>
     <br>
-    <input type="text" name="Nombre" id="Nombre">
+    <input type="text" name="Nombre" id="Nombre" placeholder="Nombre...">
         <br><br>
     <label for="Apellidos">Apellidos</label>
     <br>
-    <input type="text" name="Apellidos" id="Apellidos">
+    <input type="text" name="Apellido" id="Apellido" required; placeholder="Apellido...">
         <br><br>
     <label for="email">Correo Electonico</label>
     <br>
-    <input type="email" name="email" id="email">
+    <input type="email" name="email" id="email" placeholder="e-mail...">
+    <br><br>
+    <input type="Submit" value="Guardar">
+</form>
+<br>
+<br>
+<br>
+<!--POST-->
+<form action="/intro_web/guardado.html" method="POST">
+
+    <label for="">Nombre</label>
+    <br>
+    <input type="text" name="Nombre" id="Nombre" placeholder="Nombre">
+        <br><br>
+    <label for="Apellidos">Apellidos</label>
+    <br>
+    <input type="text" name="Apellido" id="Apellido" required; placeholder="Apellido">
+        <br><br>
+    <label for="email">Correo Electonico</label>
+    <br>
+    <input type="email" name="email" id="email" placeholder="e-mail...">
     <br><br>
     <input type="Submit" value="Guardar">
 </form>
