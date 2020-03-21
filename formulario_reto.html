@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elementos</title>
+</head>
+<body>
+    <tbody>
+    <form action="/intro_web/guardado.html" method="GET"><br>
+        <table>
+            <tbody>
+                <tr>
+                    <td>
+                        <label for="email">E-mail:</label><br>
+                        <input type="text" id="email" name="email" value="" required>
+                        </td>
+                    <td>
+                        <label for="password">Contraseña:</label><br>
+                        <input type="text" id="password" name="password" value="" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="domicilio1">Domicilio:</label></td>
+                    </tr>
+                    <tr>
+                    <td>
+                        <input type="text" id="domicilio1" name="domicilio1" value="" placeholder="Calle #">
+                    </td>
+                    </tr>
+                <tr>
+                    <td>
+                        <label for="domicilio2">Domicilio 2:</label>
+                    </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="text" id="domicilio2" name="domicilio2" value="" placeholder="Apartamento, Piso">
+                        </td>
+                    </tr>              
+                <tr>
+                    <td>
+                        <label for="ciudad">Ciudad:</label><br>
+                        <input type="text" id="ciudad" name="ciudad" value="">
+                    </td>
+                    <td>
+                        <label for="estado">Estado:</label><br>
+                    <select name="estados" id="estados" required>
+                        <option value="">Seleccione un Estado...</option> 
+                        <option value="jalisco">JAL</option>
+                        <option value="sinaloa">SIN</option>
+                        <option value="nuevo_leon">NL</option>
+                        <option value="coahuila">COA</option>
+                        <option value="nayarit">NAY</option>
+                    </select>
+                </td>
+                    <td>
+                        <label for="codigo_postal">Codigo Postal:</label><br>
+                    <input type="text" id="codigo_postal" name="codigo_postal" value="">
+                </td>
+                </tr>
+                <tr>
+                    <td>
+                    <input type="checkbox" id="check" name="check" value="check">
+                    <label for="check"> - Check me Out -</label><br>
+                </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button type="button" onclick="alert('sign in')">Sign In</button>
+                    <br><br>
+                        <input type="submit" value="Sign In">
+                    </td>
+                </tr>
+            </tbody>
+            </table>
+             
+    </form> 
+
+</body>
+</html>
