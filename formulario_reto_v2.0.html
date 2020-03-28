@@ -6,6 +6,96 @@
     <title>Formulario Reto 2.0</title>
 </head>
 <body style="background-color: grey;">
-    
-</body>
+    <h1>Practica Reto v2.0</h1>
+    <form action="/intro_web/guardado.html" method="POST"></form>
+    <table>
+    <tr>
+        <td>
+            <label for="email">E-mail</label><br>
+            <input type="text" id="email" name="email" size="33" value="" required>
+        </td>
+        <td>
+            <label for="pass">Contraseña</label><br>
+            <input type="password" id="pass" name="pass" size="32" maxlength="8" value="" required>
+        </td>
+    </tr>
+    </table>
+    <table>
+    <tr>
+        <td>
+            <label for="domicilio">Domicilio1</label><br>
+            <input type="text" id="domicilio" name="domicilio" size="70" value="" placeholder="Calle y Número">
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label for="domicilio2">Domicilio1</label><br>
+            <input type="text" id="domicilio2" name="domicilio2" size="70" value="" placeholder="Apartamento, Piso">
+        </td>
+    </tr>
+    </table>
+    <table>
+    <tr>
+        <td>
+            <label for="Ciudad">Ciudad</label><br>
+            <input type="text" id="ciudad" name="ciudad" value="">
+        </td>
+        <td>
+            <label>Estado</label><br>
+                <input list="estado" name="list" placeholder="Seleccionar..." required/>
+                <datalist id="estado">
+                <option label="aguascalientes" value="Aguascalientes">
+                <option label="baja california" value="Baja California">
+                <option label="baja california sur" value="Baja California Sur">
+                <option label="campeche" value="Campeche">
+                <option label="coahuila" value="Coahuila de Zaragoza">
+                <option label="colima" value="Colima">
+                <option label="chiapas" value="Chiapas">
+                <option label="cdmx" value="Ciudad de México">
+                <option label="durango" value="Durango">
+                <option label="guanajuato" value="Guanajuato">
+                <option label="guerrero" value="Guerrero">
+                <option label="hidalgo" value="Hidalgo">
+                <option label="jalisco" value="Jalisco">
+                <option label="mexico" value="México">
+                <option label="michoacán" value="Michoacán de Ocampo">
+                <option label="morelos" value="Morelos">
+                <option label="nayarit" value="Nayarit">
+                <option label="nuevo_leon" value="Nuevo León">
+                <option label="oaxaca" value="Oaxaca">
+                <option label="puebla" value="Puebla">
+                <option label="queretaro" value="Querétaro">
+                <option label="quintana_roo" value="Quintana Roo">
+                <option label="san_luis_potosi" value="San Luis Potosí">
+                <option label="sinaloa" value="Sinaloa">
+                <option label="sonora" value="Sonora">
+                <option label="tabasco" value="Tabasco">
+                <option label="tamaulipas" value="Tamaulipas">
+                <option label="tlaxcala" value="Tlaxcala">
+                <option label="veracruz" value="Veracruz de Ignacio de la Llave">
+                <option label="yucatan" value="Yucatán">
+                <option label="zacatecas" value="Zacatecas">
+                </option>
+        </td>
+            <td>
+                <label for="cp">Codigo Postal</label><br>
+                <input type="text" id="cp" name="cp" value="">
+            </td>
+        </tr>
+    </table>
+    <br>
+        <tr>
+            <td>
+                <input type="checkbox" id="check" name="check" value="check">
+                <label for="check"> - Check me Out -</label><br>
+            </td>
+        </tr>
+    <br>
+        <tr>
+            <td>
+                <!--<button type="button" onclick="alert('sign in')">Sign In</button>-->
+                <input type="submit" value="Sign In">
+            </td>
+        </tr>
+    </body>
 </html>
